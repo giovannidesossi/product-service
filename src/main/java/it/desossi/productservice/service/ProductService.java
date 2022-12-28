@@ -21,6 +21,7 @@ public class ProductService {
 
 	/**
 	 * Usiamo la Constructor Injection anzichè l'Autowired
+	 * Richiede l'Annotation '@RequiredArgsConstructor'
 	 */
 	private final ProductRepository productRepository;
 
